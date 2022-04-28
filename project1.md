@@ -1,8 +1,8 @@
 
-## **LAMP STACK IMPLEMENTATION**
+# LAMP STACK IMPLEMENTATION
 *LAMP (Linux, Apache, MySQL, PHP or Python, or Perl)*.
 
-# *STEP1: INSTALLING APACHE AND UPDATING THE FIREWALL*.
+## STEP1: INSTALLING APACHE AND UPDATING THE FIREWALL.
 
 ![lunch aws instance](./images/Aws%20Instance%20running.PNG)
 
@@ -22,7 +22,7 @@
 
 ![apache set and running](./images/Apache%20set%20and%20running.PNG)
 
-## *STEP 2 — INSTALLING MYSQL*
+## STEP 2 — INSTALLING MYSQL
 
 `sudo apt install mysql-server`
 
@@ -31,7 +31,7 @@
 **validate password:**
 `sudo mysql_secure_installation`
 
-## *STEP 3 — INSTALLING PHP*
+## STEP 3 — INSTALLING PHP
 **To install these 3 packages at once, run:**
 `sudo apt install php libapache2-mod-php php-mysql`
 
@@ -49,7 +49,7 @@
 •MySQL
 •PHP
 
-# *STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE*
+## STEP 4 — CREATING A VIRTUAL HOST FOR YOUR WEBSITE USING APACHE
 
 **You can now use a2ensite command to enable the new virtual host:**
 
@@ -60,7 +60,7 @@
 `sudo systemctl reload apache2`
 
 
-# STEP 5 — ENABLE PHP ON THE WEBSITE
+## STEP 5 — ENABLE PHP ON THE WEBSITE
 
 `sudo vim /etc/apache2/mods-enabled/dir.conf`
 
